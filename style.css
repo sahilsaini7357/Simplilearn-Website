@@ -5,3 +5,148 @@
     }
 }
 
+.nav {
+    background-color: #e6ecef;
+    ;
+}
+
+.form-control::placeholder {
+    color: #0d6efd;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.banner {
+    background-image: url('assets/img/banner.img.avif');
+}
+
+.banner-2 {
+    background-image: url('assets/img/banner-right-tab.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.carousel-text span {
+    color: #faa61a;
+    font-weight: 300;
+}
+
+.btn {
+    width: 260px;
+    margin: 44px 0 50px 0;
+    box-shadow: 0 4px 5px 2px rgba(0, 0, 0, .2);
+    background: #1179ef;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+    display: block;
+    height: 50px;
+    font-size: 20px;
+}
+
+.container-button {
+    width: 260px;
+    margin: 44px 0 50px 0;
+    box-shadow: 0 4px 5px 2px rgba(0, 0, 0, .2);
+    background: linear-gradient(0deg, #EA8500 10%, #F49B11 51%, #FAA61A 81%);
+    color: black;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 500;
+    display: block;
+    height: 50px;
+    font-size: 20px;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.carousel-item-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carousel-item img {
+    max-width: 100px;
+    margin: 0 10px;
+}
+
+.form-control::placeholder {
+    color: #0d6efd;
+}
+
+.active-tab {
+    background-color: #f1f7fd;
+    width: 100%;
+    border-radius: 6px;
+    position: relative;
+}
+
+.nav-tab {
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, .2);
+    width: 273px;
+    padding: 10px;
+    position: sticky;
+    position: -webkit-sticky;
+    display: inline-block;
+    vertical-align: top;
+    top: 0;
+    margin-right: 16px;
+    margin-bottom: 40px;
+}
+
+.category-tab {
+    display: block;
+    padding: 8px 48px 8px 8px;
+    cursor: pointer;
+}
+
+.card-div {
+    box-shadow: 0px 5px 6px 0px rgba(39, 44, 55, .27);
+    width: 70%;
+    margin-top: -25px;
+    z-index: 1;
+}
+
+.card-img-top {
+    background-color: pink;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.card:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.27);
+}
+
+.card-text {
+    line-height: 22px;
+}
+.bootcamp {
+    background: #f5f7fa;
+    padding-bottom: 20px;
+}
+
+.bootcamp ul li small {
+    color: #6c7480;
+    font-weight: 500;
+}
+
+.left-border {
+    border-right: 1px solid rgba(128, 128, 128, 0.548);
+    height: 50px;
+    
+}
