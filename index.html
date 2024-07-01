@@ -12,14 +12,23 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>simplilearn</title>
+    <link rel="shortcut icon" href="https://www.simplilearn.com/static/frontend/images/favicon.png" type="image/x-icon">
+    <title>Simplilearn | Online Courses- Bootcamp & Certification Platform <br> simplilearn.com </title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 
 </head>
 
 <body>
 
-    <ul class="nav justify-content-end px-5 bg-light navbar">
+    <ul id="a1" class="nav justify-content-end px-5 p-0 navbar">
         <li class="nav-item ">
             <a class="nav-link text-dark" aria-current="page" href="#">Resources</a>
         </li>
@@ -41,32 +50,920 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="https://www.simplilearn.com/ice9/new_logo.svgz" alt=""
-                    width="50%"></a>
+                    width="100px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><button
-                                class="me-5 bg-primary text-white btn">All courses</button></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">
-                            <form class="d-flex" style="width: 100%;">
-                                <input class="form-control" type="search" placeholder="Search" aria-label="Search"
-                                    style="width: 100%;">
-                                <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
-                            </form>
-                        </a>
-                    </li>
-                </ul>
+                <div class="d-flex">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"><button
+                                    class="me-5 border-0 px-4 rounded p-2 bg-primary text-white ">All
+                                    courses</button></a>
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+
+                </div>
+
+                <form class=" w-50">
+                    <div class="container">
+                        <div class="input-group">
+                            <span class="input-group-text bg-white border-end-0 border-primary">
+                                <i class="bi bi-search text-primary"></i>
+                            </span>
+                            <input type="text" class="form-control border-start-0 border-primary"
+                                placeholder="What do you want to learn?">
+                        </div>
+                    </div>
+                </form>
             </div>
+            <button class=" btn-outline text-muted border-secondary border-0  p-lg-2">Log in</button>
         </div>
     </nav>
 
+    <section>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active banner">
+                    <div class="container-fluid px-0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h1 class="text-white pt-5">World’s #1 <br> Online Bootcamp</h1>
+                                    <ul class="text-white list-unstyled lh-lg">
+                                        <li><b>5,000,000</b> careers advanced</li>
+                                        <li><b>1,500</b> live classes every month</li>
+                                        <li><b>85%</b> report career benefits including promotion or a new job</li>
+                                    </ul>
+                                    <a href="#our-programs" title="Explore Post Graduate Programs"
+                                        class="btn btn-primary">Explore Programs</a>
+                                </div>
+                                <!-- <div class="col-lg-6 col-md-6">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                            src="assets/img/Worlds_1_Online_Bootcamp_Get_Certified_Get_Ahead_With_Simplilearn.mp4"
+                                            allowfullscreen width="100%" height="400px"></iframe>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="carousel-item pt-5 banner-2">
+                    <div class="container">
+                        <div class="carousel-text text-white">
+                            <h2>All our top programs include</h2>
+                            <h2><span>Generative AI Components</span></h2>
+                            <div class="ai-process-home mt-4">
+                                <h1>Be a leader in your field <br> Change, Adapt and Build with AI</h1>
+                            </div>
+                            <a href="https://www.simplilearn.com/certifications/generative-ai-courses"
+                                class="btn btn-primary text-decoration-none">Explore Gen AI Programs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center mt-4">Partnering with world's leading universities and companies</p>
+                </div>
+
+
+                <div class="col-12">
+                    <div class="owl-carousel owl-theme mt-5">
+                        <div class="item">
+                            <img src="https://www.simplilearn.com/ice9/labels/iitkanpur_Home%20(1).svg?w=240&dpr=1"
+                                alt="" height="70px">
+                        </div>
+                        <div class="item">
+                            <img src="https://www.simplilearn.com/ice9/labels/iitRoorkee_Home.svg?w=320&dpr=1" alt=""
+                                height="70px">
+                        </div>
+                        <div class="item">
+                            <img src="https://www.simplilearn.com/ice9/labels/iitmadras_Home.svg?w=160&dpr=1" alt=""
+                                height="70px">
+                        </div>
+                        <div class="item">
+                            <img src="https://www.simplilearn.com/ice9/labels/iimindore_Home.svg?w=240&dpr=1" alt=""
+                                height="70px">
+                        </div>
+                        <div class="item">
+                            <img src="https://www.simplilearn.com/ice9/labels/Caltech_Home.svg?w=320&dpr=1" alt=""
+                                height="70px">
+                        </div>
+                        <div class="item">
+                            <img src="https://www.simplilearn.com/ice9/labels/iiitb_Home.svg?w=100&dpr=1" alt=""
+                                height="70px">
+                        </div>
+                        <div class="item">
+                            <img src="https://www.simplilearn.com/ice9/labels/AWS_Home.svg?w=128&dpr=1" alt=""
+                                height="70px">
+                        </div>
+                        <div class="item">
+                            <img src="https://www.simplilearn.com/ice9/labels/IBM_Home.svg?w=160&dpr=1" alt=""
+                                height="70px">
+                        </div>
+                        <div class="item">
+                            <img src="https://www.simplilearn.com/ice9/labels/Miscrosoft_Home.svg?w=240&dpr=1" alt=""
+                                height="70px">
+                        </div>
+                        <div class="item">
+                            <img src="https://www.simplilearn.com/ice9/labels/IITG_Home.svg?w=300&dpr=1" alt=""
+                                height="70px">
+                        </div>
+                        <div class="item">
+                            <img src="https://www.simplilearn.com/ice9/labels/SPJain_Home.svg?w=160&dpr=1" alt=""
+                                height="70px">
+                        </div>
+                        <div class="item">
+                            <img src="https://www.simplilearn.com/ice9/labels/Purdue_Home.svg?w=200&dpr=1" alt=""
+                                height="70px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Get Certified, Get Ahead with Our Programs</h2>
+                    <p class="mt-3">Learn from global experts and get certified by the world's leading universities</p>
+                </div>
+
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-3  d-none d-lg-block fixed-top sticky-top">
+                    <div class="nav-tab ">
+
+                        <div class="show-list">
+                            <div class="category-tab">
+                                <h6>Categories</h6>
+                            </div>
+                            <div class="category-tab active-tab">
+                                <span class="text-primary">Most Popular <i
+                                        class="bi bi-chevron-right ms-5 text-primary"></i></span>
+                            </div>
+                            <div class="category-tab ">
+                                <span>Generative AI</span>
+                            </div>
+                            <div class="category-tab ">
+                                <span>Data Science &amp; Business Analytics</span>
+                            </div>
+                            <div class="category-tab ">
+                                <span>AI &amp; Machine Learning</span>
+                            </div>
+
+                            <div class="category-tab ">
+                                <span>Project Management</span>
+                            </div>
+                            <div class="category-tab ">
+                                <span>DevOps</span>
+                            </div>
+                            <div class="category-tab ">
+                                <span>Software Development</span>
+                            </div>
+                            <div class="category-tab ">
+                                <span>Cloud Computing</span>
+                            </div>
+                            <div class="category-tab ">
+                                <span>Business and Leadership</span>
+                            </div>
+                            <div class="category-tab ">
+                                <span>Cyber Security</span>
+                            </div>
+                            <div class="category-tab ">
+                                <span>Quality Management</span>
+                            </div>
+                            <div class="category-tab ">
+                                <span>Agile and Scrum</span>
+                            </div>
+                            <div class="category-tab ">
+                                <span>IT Service and Architecture</span>
+                            </div>
+                            <div class="category-tab ">
+                                <span>Digital Marketing</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-9 d-flex flex-wrap">
+                    <div class="container">
+                        <div class="row g-2">
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/img/download.svg" alt="Card image">
+                                    <div class="card-div bg-white rounded mx-4 py-2 px-3">
+                                        <img class="card-img"
+                                            src="https://www.simplilearn.com/ice9/accreditation_icons/PMP_HM_40px.svgz?w=200&dpr=1"
+                                            alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>PMP® Certification Training</h6>
+                                        <small class="card-text text-muted"> <i class="bi bi-check-lg text-primary"></i>
+                                            35 contact hours</small><br>
+                                        <small class="card-text text-muted"> <i class="bi bi-check-lg text-primary"></i>
+                                            8 industry case studies, 20
+                                            <pre>   industry based scenarios</pre>
+                                        </small>
+                                    </div>
+
+                                    <div class="mt-5 pt-1">
+                                        <small class="px-3"><i class="bi bi-calendar4 me-2"></i> 4 weeks</small>
+                                    </div>
+                                    <div class="d-inline-flex align-items-center p-1 ps-3 mb-3">
+                                        <small class="cohort  me-2">cohort starts: <span class="fw-bold">29th
+                                                Jun</span></small>
+                                        <small class="text-nowrap align-items-center d-inline-flex"><a
+                                                class="text-decoration-none" href="#">Know More</a></small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 mb-4">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://www.simplilearn.com/ice9/banners/IIITB_Thumbnail_image.jpg?w=300&dpr=2"
+                                        alt="Card image">
+                                    <div class="card-div bg-white rounded mx-4 px-3">
+                                        <img class="card-img" src="assets/img/download.png" alt="">
+                                    </div>
+
+                                    <div class="card-body">
+                                        <h6>Advanced Executive Program in Cybersecurity</h6>
+                                        <small class="card-text text-muted"> <i class="bi bi-check-lg text-primary"></i>
+                                            Validate your learning with a
+                                            <span class="ps-3"> Transcript from IIIT Banglore</span><br>
+                                        </small>
+                                        <small class="card-text text-muted"> <i class="bi bi-check-lg text-primary"></i>
+                                            Attend Masterclasses from top
+                                            <span class="ps-3"> faculty of IIIT Bangalore</span>
+                                        </small>
+                                    </div>
+                                    <div class="mt-4">
+                                        <small class="px-3"><i class="bi bi-calendar4 me-2"></i> 4 weeks</small>
+                                    </div>
+
+                                    <div class="d-inline-flex align-items-center p-1 ps-3 mb-3">
+                                        <small class="cohort me-2">cohort starts: <span class="fw-bold">29th
+                                                Jun</span></small>
+                                        <small class="text-nowrap align-items-center d-inline-flex"><a
+                                                class="text-decoration-none" href="#">Know More</a></small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://www.simplilearn.com/ice9/banners/2020-05-21.jpg?w=300&dpr=1"
+                                        alt="Card image">
+                                    <div class="card-div bg-white rounded mx-4 py-2 px-3">
+                                        <img class="card-img" src="assets/img/Caltech_Home.svg" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Caltech Post Graduate Program in AI and Machine Learning</h6>
+
+                                        <small class="card-text text-muted">
+                                            <i class="bi bi-check-lg text-primary"></i>
+                                            <span>Certificate from Caltech CTME</span><br>
+                                            <span><i class="bi bi-check-lg text-primary"></i> Earn a program
+                                                completion</span>
+                                        </small>
+
+
+                                    </div>
+                                    <div class="mt-5">
+                                        <small class="px-3"><i class="bi bi-calendar4 me-2"></i> 4 weeks</small>
+                                    </div>
+
+                                    <div class="d-inline-flex align-items-center p-1 ps-3 mb-3">
+                                        <small class="cohort me-2">cohort starts: <span class="fw-bold">29th Jun
+                                            </span></small>
+                                        <small class="text-nowrap align-items-center d-inline-flex"><a
+                                                class="text-decoration-none" href="#">Know More</a>
+                                        </small>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/img/download.svg" alt="Card image">
+                                    <div class="card-div bg-white rounded mx-4 py-1 px-5">
+                                        <img class="card-img" src="assets/img/IBM_Home.svg" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Business Analyst</h6>
+                                        <small class="card-text text-muted"> <i class="bi bi-check-lg text-primary"></i>
+                                            Simplilearn JobAssist Program </small><br>
+                                        <small class="card-text text-muted"> <i
+                                                class="bi bi-check-lg  text-primary"></i> Simplilearn JobAssist Program
+                                            <pre>   industry based scenarion</pre>
+                                        </small>
+                                    </div>
+                                    <div class="mt-5">
+                                        <small class="px-3"><i class="bi bi-calendar4 me-2"></i> 4 weeks</small>
+                                    </div>
+
+                                    <div class="d-inline-flex align-items-center p-1 ps-3 mb-3">
+                                        <small class="cohort me-2">cohort starts: <span class="fw-bold">29th Jun
+                                            </span></small>
+                                        <small class="text-nowrap align-items-center d-inline-flex"><a
+                                                class="text-decoration-none" href="#">Know More</a></small>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://www.simplilearn.com/ice9/banners/thumbnail-iit-blockchain.jpg?w=300&dpr=1"
+                                        alt="Card image">
+                                    <div class="card-div bg-white rounded mx-4  py- px-3">
+                                        <img class="card-img" src="assets/img/iitkanpur_Home (1).svg" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Professional Certificate Course in Generative AI and Machine Learning</h6>
+                                        <small class="card-text text-muted"> <i class="bi bi-check-lg text-primary"></i>
+                                            Program completion certificate
+                                            <span class="ps-2"> from Earn a program completion</span> </small>
+
+                                    </div>
+                                    <div class="mt-5">
+                                        <small class="px-3"><i class="bi bi-calendar4 me-2"></i> 4 weeks</small>
+                                    </div>
+
+                                    <div class="d-inline-flex align-items-center p-1 ps-3 mb-2">
+                                        <small class="cohort me-2">cohort starts: <span class="fw-bold">29th Jun
+                                            </span></small>
+                                        <small class="text-nowrap align-items-center d-inline-flex"><a
+                                                class="text-decoration-none" href="#">Know More</a></small>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/img/download.svg" alt="Card image">
+                                    <div class="card-div bg-white rounded mx-4 py-1  px-5">
+                                        <img class="card-img" src="assets/img/IBM_Home.svg" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Data Analyst</h6>
+                                        <small class="card-text text-muted"> <i class="bi bi-check-lg text-primary"></i>
+                                            Simplilearn JobAssist Program </small><br>
+                                        <small class="card-text text-muted"> <i
+                                                class="bi bi-check-lg  text-primary"></i> 9 tools &amp; Rigorous
+                                            curriculum
+
+                                        </small>
+                                    </div>
+
+                                    <div class="mt-5 pt-5">
+                                        <small class="px-3"><i class="bi bi-calendar4 me-2"></i> 4 weeks</small>
+                                    </div>
+
+                                    <div class="d-inline-flex align-items-center p-1 ps-3 mb-1">
+                                        <small class="cohort me-2">cohort starts: <span class="fw-bold">29th Jun
+                                            </span></small>
+                                        <small class="text-nowrap align-items-center d-inline-flex"><a
+                                                class="text-decoration-none" href="#">Know More</a></small>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/img/download.svg" alt="Card image">
+                                    <div class="card-div bg-white rounded mx-4  py-2 px-3">
+                                        <img class="card-img"
+                                            src="https://www.simplilearn.com/ice9/accreditation_icons/PMP_HM_40px.svgz?w=200&dpr=1"
+                                            alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Certified ScrumMaster<sup>®</sup>(CSM)</h6>
+                                        <small class="card-text text-muted"> <i class="bi bi-check-lg text-primary"></i>
+                                            2 days classroom training<br>
+                                            <i class="bi bi-check-lg  text-primary"></i> 16 PMI PDUs Certification
+                                            <span class="ps-3">Offered</span>
+
+
+                                        </small>
+                                    </div>
+                                    <div class="mt-5">
+                                        <small class="px-3"><i class="bi bi-calendar4 me-2"></i> 4 weeks</small>
+                                    </div>
+
+                                    <div class="d-inline-flex align-items-center p-1 ps-3 mb-3">
+                                        <small class="cohort me-2">cohort starts: <span class="fw-bold">29th Jun
+                                            </span></small>
+                                        <small class="text-nowrap align-items-center d-inline-flex"><a
+                                                class="text-decoration-none" href="#">Know More</a></small>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://www.simplilearn.com/ice9/banners/thumbnail-iit-blockchain.jpg?w=300&dpr=1"
+                                        alt="Card image">
+                                    <div class="card-div bg-white rounded mx-4 px-4">
+                                        <img class="card-img" src="assets/img/iitkanpur_Home (1).svg" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Professional Certificate Course in Data Analytics and AI</h6>
+                                        <small class="card-text text-muted lh-lg"> <i
+                                                class="bi bi-check-lg text-primary"></i>
+                                            Program completion certificate
+                                            <span class="ps-3">from E ICT Academy, IIT Kanpur</span>
+                                        </small>
+
+                                    </div>
+                                    <div class="mt-5">
+                                        <small class="px-3"><i class="bi bi-calendar4 me-2"></i> 4 weeks</small>
+                                    </div>
+
+                                    <div class="d-inline-flex align-items-center p-1 ps-3 mb-3">
+                                        <small class="cohort me-2">cohort starts: <span class="fw-bold">29th Jun
+                                            </span></small>
+                                        <small class="text-nowrap align-items-center d-inline-flex"><a
+                                                class="text-decoration-none" href="#">Know More</a></small>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/img/download.svg" alt="Card image">
+                                    <div class="card-div bg-white rounded mx-4  py-2 px-3">
+                                        <img class="card-img p-1" src="assets/img/download (1).png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>ITIL<sup>®</sup> 4 Foundation</h6>
+                                        <small class="card-text text-muted"> <i class="bi bi-check-lg text-primary"></i>
+                                            19 PDUs for self-paced learning<br>
+                                            <i class="bi bi-check-lg  text-primary"></i> 8
+                                            22 PDUs for online classroom
+                                            <span class="ps-3"> flexi pass offered</span>
+
+                                        </small>
+                                    </div>
+
+                                    <small class="px-3 mt-5 pt-2"><i class="bi bi-calendar4 me-2"></i> 4 weeks</small>
+
+
+                                    <div class="d-inline-flex align-items-center p-1 ps-3 mb-3">
+                                        <small class="cohort me-2">cohort starts: <span class="fw-bold">29th Jun
+                                            </span></small>
+                                        <small class="text-nowrap align-items-center d-inline-flex"><a
+                                                class="text-decoration-none" href="#">Know More</a>
+                                        </small>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://www.simplilearn.com/ice9/banners/thumbnail-iit-blockchain.jpg?w=300&dpr=1"
+                                        alt="Card image">
+                                    <div class="card-div bg-white rounded mx-4  py-1 px-4">
+                                        <img class="card-img" src="assets/img/iitkanpur_Home (1).svg" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Professional Certificate Course in Data Science</h6>
+                                        <small class="card-text text-muted"> <i class="bi bi-check-lg text-primary"></i>
+                                            Learn about ChatGPT, DALL-E 2,<br>
+                                            <span class="ps-3"> Midjourney other key tools</span><br>
+                                            <i class="bi bi-check-lg  text-primary"></i> Capstone projects in 3 domains
+
+                                        </small>
+                                    </div>
+
+                                    <small class="px-3 mt-4 pt-2"><i class="bi bi-calendar4 me-2"></i> 4 weeks</small>
+
+
+                                    <div class="d-inline-flex align-items-center p-1 ps-3 mb-3">
+                                        <small class="cohort me-2">cohort starts: <span class="fw-bold">29th Jun
+                                            </span></small>
+                                        <small class="text-nowrap align-items-center d-inline-flex"><a
+                                                class="text-decoration-none" href="#">Know More</a>
+                                        </small>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://www.simplilearn.com/ice9/banners/Thumbnailimage.jpg?w=300&dpr=1"
+                                        alt="Card image">
+                                    <div class="card-div bg-white rounded mx-4  py-3 px-2">
+                                        <img class="card-img" src="assets/img/download (2).png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Professional Certification in Product Management</h6>
+
+                                        <small class="card-text text-muted"> <i class="bi bi-check-lg text-primary"></i>
+                                            Certificate from SP Jain School<br>
+                                            <span class="ps-3"> of Global Management</span><br>
+                                            <i class="bi bi-check-lg  text-primary"></i> 8
+                                            Live sessions by SP Jain top
+                                            <span class="ps-3">global faculties</span>
+
+                                        </small>
+                                    </div>
+
+                                    <div>
+                                        <small class="px-3 mt-5"><i class="bi bi-calendar4 me-2"></i> 4 weeks</small>
+                                    </div>
+
+
+                                    <div class="d-inline-flex align-items-center p-1 ps-3 mb-3">
+                                        <small class=" me-2">cohort starts: <span class="fw-bold">29th Jun </span>
+
+                                        </small>
+                                        <small class="text-nowrap align-items-center d-inline-flex"><a
+                                                class="text-decoration-none" href="#">Know More</a>
+                                        </small>
+                                    </div>
+
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/img/download.svg" alt="Card image">
+                                    <div class="card-div bg-white rounded mx-4 py-2 px-5">
+                                        <img class="card-img" src="assets/img/IBM_Home.svg" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Data Scientist</h6>
+                                        <small class="card-text text-muted"> <i class="bi bi-check-lg text-primary"></i>
+                                            Simplilearn JobAssist Program </small><br>
+                                        <small class="card-text text-muted"> <i
+                                                class="bi bi-check-lg  text-primary"></i>
+                                            14 tools &amp; Rigorous curriculum
+
+                                        </small>
+                                    </div>
+                                    <div class="mt-5 pt-3">
+                                        <small class="px-3"><i class="bi bi-calendar4 me-2"></i> 4 weeks</small>
+                                    </div>
+
+                                    <div class="d-inline-flex align-items-center p-1 ps-3 mb-3">
+                                        <small class="cohort me-2">cohort starts: <span class="fw-bold">29th Jun
+                                            </span></small>
+                                        <small class="text-nowrap align-items-center d-inline-flex"><a
+                                                class="text-decoration-none" href="#">Know More</a></small>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top" src="assets/img/download.svg" alt="Card image">
+                                    <div class="card-div bg-white rounded mx-4  py-2 px-3">
+                                        <img class="card-img"
+                                            src="https://www.simplilearn.com/ice9/accreditation_icons/PMP_HM_40px.svgz?w=200&dpr=1"
+                                            alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Azure Cloud Architect</h6>
+                                        <small class="card-text text-muted"> <i class="bi bi-check-lg text-primary"></i>
+                                            Simplilearn JobAssist Program </small><br>
+                                        <small class="card-text text-muted"> <i
+                                                class="bi bi-check-lg  text-primary"></i> 8
+                                            6 tools &amp; Rigorous curriculum
+
+                                        </small>
+                                    </div>
+                                    <div class="mt-5 pt-2">
+                                        <small class="px-3"><i class="bi bi-calendar4 me-2"></i> 4 weeks</small>
+                                    </div>
+
+                                    <div class="d-inline-flex align-items-center p-1 ps-3 mb-3">
+                                        <small class="cohort me-2">cohort starts: <span class="fw-bold">29th Jun
+                                            </span></small>
+                                        <small class="text-nowrap align-items-center d-inline-flex"><a
+                                                class="text-decoration-none" href="#">Know More</a></small>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://www.simplilearn.com/ice9/banners/IIITB_Thumbnail_image.jpg?w=300&dpr=1"
+                                        alt="Card image">
+                                    <div class="card-div bg-white rounded mx-4 px-3">
+                                        <img class="card-img" src="assets/img/download.png" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Advanced Certification in UI UX Design</h6>
+
+                                        <small class="card-text text-muted"> <i
+                                                class="bi bi-check-lg  text-primary"></i> Attend masterclasses from top
+                                            <span class="ps-3"></i> IIIT Bangalore Faculty</span>
+
+                                        </small>
+                                    </div>
+                                    <div class="mt-5">
+                                        <small class="px-3"><i class="bi bi-calendar4 me-2"></i> 4 weeks</small>
+                                    </div>
+
+                                    <div class="d-inline-flex align-items-center p-1 ps-3 mb-2">
+                                        <small class="cohort me-2">cohort starts:<span class="fw-bold">29th Jun
+                                            </span></small>
+                                        <small class="text-nowrap align-items-center d-inline-flex"><a
+                                                class="text-decoration-none" href="#">Know More</a></small>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                <div class="card">
+                                    <img class="card-img-top"
+                                        src="https://www.simplilearn.com/ice9/banners/IITkanpurcyber.jpg?w=300&dpr=1"
+                                        alt="Card image">
+                                    <div class="card-div bg-white rounded mx-4 px-4">
+                                        <img class="card-img" src="assets/img/iitkanpur_Home (1).svg" alt="">
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Professional Certificate Program in Cybersecurity- Red Team</h6>
+                                        <small class="card-text text-muted"> <i class="bi bi-check-lg text-primary"></i>
+                                            Attend Masterclasses from IIT<br>
+
+                                            <i class="bi bi-check-lg  text-primary"></i> 8
+                                            Seamless access to integrated
+                                        </small>
+                                    </div>
+                                    <div class="mt-4">
+                                        <small class="px-3"><i class="bi bi-calendar4 me-2"></i> 4 weeks</small>
+                                    </div>
+
+                                    <div class="d-inline-flex align-items-center p-1 ps-3 mb-3">
+                                        <small class="cohort me-2">cohort starts: <span class="fw-bold">29th Jun
+                                            </span></small>
+                                        <small class="text-nowrap align-items-center d-inline-flex"><a
+                                                class="text-decoration-none" href="#">Know More</a></small>
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 offset-md-1">
+                    <div class="text-center text-primary fw-bold mt-4">
+                        <span>View All</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluild bootcamp mt-5">
+            <div class="container px-4">
+                <div class="row">
+                    <div class="col-12 mt-5">
+                        <span>Our Online Bootcamp</span>
+                        <h2 class="mt-3">An immersive learning experience</h2>
+
+                    </div>
+                </div>
+                <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-12 mt-5">
+                    <div class="col-lg-3">
+                        <ul class="list-unstyled bootcamp">
+                            <li>
+                                <div><img src="assets/img/v1.webp" alt="Online Bootcamp">
+                                </div>
+                                <div class="bootcamp-info">
+                                    <h6 class="text-dark fw-bolder mt-5">Develop skills for real career growth</h6>
+                                    <small class=" ">Cutting-edge curriculum designed in guidance with industry and
+                                        academia to develop
+                                        job-ready skills</small>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <div><img src="assets/img/v2.webp" alt="Online Bootcamp">
+                                </div>
+                                <div class="bootcamp-info">
+                                    <h6 class="text-dark fw-bolder  mt-5">Learn from experts active in their field, not
+                                        out-of-touch trainers</h6>
+                                    <small class="text-muted ">Leading practitioners who bring current best practices
+                                        and case studies to sessions that fit into your work </small>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="bootcamp-img"><img src="assets/img/v3.webp" alt="Online Bootcamp">
+                                </div>
+                                <div class="bootcamp-info">
+                                    <h6 class="text-dark fw-bolder  mt-5">Learn by working on real-world problems</h6>
+                                    <small class="text-muted ">Capstone projects involving real world data sets with
+                                        virtual labs for hands-on learning</small>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="bootcamp-img"><img src="assets/img/v4.webp" alt="Online Bootcamp">
+                                </div>
+                                <div class="bootcamp-info">
+                                    <h6 class="text-dark fw-bolder mt-4">Structured guidance ensuring learning never
+                                        stops </h6>
+                                    <small class="text-muted">24x7 Learning support from mentors and a community of
+                                        like-minded peers to resolve any conceptual doubts</small>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-lg-12 mt-5">
+                                <h2>Hear it <br>
+                                    from our Alumni</h2>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-lg-3 left-border">
+                                    <h2 class="mt-3">4.5 <i class="bi bi-star-fill fs-6 text-warning"></i></h2>
+                                </div>
+                                <div class="col-lg-9"><img class="" src="assets/img/switchup.avif" alt=""></div>
+                            </div>
+
+                            <div class="row mt-4">
+                                <div class="col-lg-3 left-border">
+                                    <h2 class="mt-2">4.5 <i class="bi bi-star-fill fs-6 text-warning"></i></h2>
+                                </div>
+                                <div class="col-lg-9"><img class="" src="assets/img/trustpilot_v1.avif" alt=""></div>
+                            </div>
+
+                            <div class="row mt-4">
+                                <div class="col-lg-3 left-border">
+                                    <h2 class="mt-2">4.5 <i class="bi bi-star-fill fs-6 text-warning"></i></h2>
+                                </div>
+                                <div class="col-lg-9"><img class="" src="assets/img/course-report.avif" alt=""></div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="assets/img/alumni-video_v1.avif" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 5,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 1000,
+            autoplayHoverPause: true
+        });
+        $('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [1000])
+        })
+        $('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+        })
+
+    </script>
 
 
 </body>
